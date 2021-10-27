@@ -44,7 +44,7 @@ namespace TaxiWebApplication
                         Email = "admin@test.ua"
                     };
 
-                    var res = await userManager.CreateAsync(adminUser, "Polshaua1 ");
+                    var res = await userManager.CreateAsync(adminUser, "Bobamax1 ");
 
                     await userManager.AddToRoleAsync(adminUser, adminRole.Name);
 
